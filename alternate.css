@@ -1,0 +1,123 @@
+body {
+   font-family:"Lucida Handwriting";
+   background: linear-gradient(grey, darkgrey);
+
+   
+}
+
+
+header h1 {
+  font-size: 80px;
+  color: white;
+  float: right;
+}
+ 
+h2:hover{  
+    color:whitesmoke;
+}
+
+
+.logoimage{
+    background-image: url(logo.jpg);
+    background-image:linear-gradient();
+}
+
+/*
+h1,#img-logo{
+    display: inline-block;
+}
+*/
+
+nav ul {
+   list-style-type: none;
+   overflow: hidden;
+   background-color: darkgrey;
+}
+
+nav li a {
+  flex-basis: 100px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;  
+}
+
+nav li a:hover {
+  background-color: black;
+}
+
+nav li {   float: left;
+           margin: 10;
+           padding: 15;
+}
+
+
+table{
+  font-size: 20px;
+  color: black;  
+  background-color:beige;
+  
+}
+
+th{
+        color: white;
+        background-color:darkslategrey;
+        text-align: center;
+        font-weight: bold;
+        font-size: 50px;
+        padding: 20px; 
+        position: relative;
+    }
+
+
+.city{
+    text-align: left;
+    
+}
+
+.text{
+    color:white;
+}
+
+.text:hover{
+    text-decoration: underline;
+}
+
+#town{
+    font-weight: bold;
+    text-decoration: inherit;
+}
+
+td img {
+  width: 300px;
+  height: 200px;
+  background-color: grey;
+  transition: width 1s, height 1s;
+}
+
+td img:hover {
+  width: 500px;
+  height: 350px;
+}
+
+
+
+
+
+footer p{
+    position: relative;
+    font-weight: bold;
+}
+
+a:visited {
+  color: white;
+}
+
+
+a:link {
+  color: blue;
+}
+
+
+
